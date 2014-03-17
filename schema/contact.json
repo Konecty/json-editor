@@ -7,25 +7,25 @@
         "name": {
             "title": "Name",
             "oneOf": [{
-                "$ref": "/schema/comparison-string-e.json"
+                "$ref": "comparison-string-e.json"
             }, {
-                "$ref": "/schema/comparison-string-gt.json"
+                "$ref": "comparison-string-gt.json"
             }, {
-                "$ref": "/schema/comparison-string-gte.json"
+                "$ref": "comparison-string-gte.json"
             }, {
-                "$ref": "/schema/comparison-string-lt.json"
+                "$ref": "comparison-string-lt.json"
             }, {
-                "$ref": "/schema/comparison-string-lte.json"
+                "$ref": "comparison-string-lte.json"
             }, {
-                "$ref": "/schema/comparison-string-in.json"
+                "$ref": "comparison-string-in.json"
             }, {
-                "$ref": "/schema/comparison-string-nin.json"
+                "$ref": "comparison-string-nin.json"
             }, {
-                "$ref": "/schema/comparison-string-ne.json"
+                "$ref": "comparison-string-ne.json"
             }, {
-                "$ref": "/schema/comparison-exists.json"
+                "$ref": "comparison-exists.json"
             }, {
-                "$ref": "/schema/comparison-type.json"
+                "$ref": "comparison-type.json"
             }]
         },
         "age": {

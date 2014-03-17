@@ -8,7 +8,7 @@
             "type": "array",
             "items": {
                 "oneOf": [{
-                    "$ref": "/schema/contact.json"
+                    "$ref": "contact.json"
                 }]
             },
             "default": {}
@@ -17,7 +17,7 @@
             "type": "array",
             "items": {
                 "oneOf": [{
-                    "$ref": "/schema/contact.json"
+                    "$ref": "contact.json"
                 }]
             },
             "default": {}
@@ -26,7 +26,7 @@
             "type": "array",
             "items": {
                 "oneOf": [{
-                    "$ref": "/schema/contact.json"
+                    "$ref": "contact.json"
                 }]
             },
             "default": {}
