@@ -1,0 +1,13 @@
+{
+    "title": "equal to or greater than",
+    "id": "comparison-string-gte",
+    "type": "object",
+    "properties": {
+        "$gte": {
+            "title": "Value",
+            "description": "Matches values that are equal to or greater than the value specified.",
+            "type": "string",
+            "required": ["$gte"]
+        }
+    }
+}

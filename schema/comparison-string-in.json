@@ -1,0 +1,15 @@
+{
+    "title": "in",
+    "id": "comparison-string-in",
+    "type": "object",
+    "properties": {
+        "$in": {
+            "title": "Value",
+            "description": "Matches any of the values that exist in an array specified.",
+            "type": "array",
+            "format":"table",
+            "items": {"type":"string"},
+            "required": ["$in"]
+        }
+    }
+}

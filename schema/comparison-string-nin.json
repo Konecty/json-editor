@@ -1,0 +1,15 @@
+{
+    "title": "not in",
+    "id": "comparison-string-nin",
+    "type": "object",
+    "properties": {
+        "$nin": {
+            "title": "Value",
+            "description": "Matches values that do not exist in an array specified to the query.",
+            "type": "array",
+            "format":"table",
+            "items": {"type":"string"},
+            "required": ["$nin"]
+        }
+    }
+}

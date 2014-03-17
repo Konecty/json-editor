@@ -1,0 +1,35 @@
+{
+    "title": "Logical",
+    "id": "logical",
+    "description": "Logical Operators Schema for a Query",
+    "type": "object",
+    "properties": {
+        "$and": {
+            "type": "array",
+            "items": {
+                "oneOf": [{
+                    "$ref": "/schema/contact.json"
+                }]
+            },
+            "default": {}
+        },
+        "$or": {
+            "type": "array",
+            "items": {
+                "oneOf": [{
+                    "$ref": "/schema/contact.json"
+                }]
+            },
+            "default": {}
+        },
+        "$nor": {
+            "type": "array",
+            "items": {
+                "oneOf": [{
+                    "$ref": "/schema/contact.json"
+                }]
+            },
+            "default": {}
+        }
+    }
+}

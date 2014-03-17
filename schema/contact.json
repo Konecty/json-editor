@@ -1,0 +1,46 @@
+{
+    "title": "Contact",
+    "id": "contact",
+    "type": "object",
+    "default": {},
+    "properties": {
+        "name": {
+            "title": "Name",
+            "oneOf": [{
+                "$ref": "/schema/comparison-string-e.json"
+            }, {
+                "$ref": "/schema/comparison-string-gt.json"
+            }, {
+                "$ref": "/schema/comparison-string-gte.json"
+            }, {
+                "$ref": "/schema/comparison-string-lt.json"
+            }, {
+                "$ref": "/schema/comparison-string-lte.json"
+            }, {
+                "$ref": "/schema/comparison-string-in.json"
+            }, {
+                "$ref": "/schema/comparison-string-nin.json"
+            }, {
+                "$ref": "/schema/comparison-string-ne.json"
+            }, {
+                "$ref": "/schema/comparison-exists.json"
+            }, {
+                "$ref": "/schema/comparison-type.json"
+            }]
+        },
+        "age": {
+            "type": "integer",
+            "default": 21,
+            "minimum": 18,
+            "maximum": 99,
+            "format": "range"
+        },
+        "gender": {
+            "type": "string",
+            "enum": [
+                "male",
+                "female"
+            ]
+        }
+    }
+}

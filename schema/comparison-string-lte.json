@@ -1,0 +1,13 @@
+{
+    "title": "equal to or less than",
+    "id": "comparison-string-lte",
+    "type": "object",
+    "properties": {
+        "$lte": {
+            "title": "Value",
+            "description": "Matches values that are equal to or less than the value specified.",
+            "type": "string",
+            "required": ["$lte"]
+        }
+    }
+}

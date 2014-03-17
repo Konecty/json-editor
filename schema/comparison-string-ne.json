@@ -1,0 +1,13 @@
+{
+    "title": "not equal",
+    "id": "comparison-string-ne",
+    "type": "object",
+    "properties": {
+        "$ne": {
+            "title": "Value",
+            "description": "Matches all values that are not equal to the value specified.",
+            "type": "string",
+            "required": ["$ne"]
+        }
+    }
+}

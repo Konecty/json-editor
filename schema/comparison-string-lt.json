@@ -1,0 +1,13 @@
+{
+    "title": "less than",
+    "id": "comparison-string-lt",
+    "type": "object",
+    "properties": {
+        "$lt": {
+            "title": "Value",
+            "description": "Matches values that are less than the value specified.",
+            "type": "string",
+            "required": ["$lt"]
+        }
+    }
+}

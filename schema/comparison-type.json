@@ -1,0 +1,14 @@
+{
+    "title": "type",
+    "id": "comparison-type",
+    "type": "object",
+    "properties": {
+        "$type": {
+            "title": "Value",
+            "description": "Matches documents where the value of the field is the specified BSON type.",
+            "type": "integer",
+            "enum": [1,2,3,4,5,6,7,8,9,10,11,13,14,15,16,17,18,255,127],
+            "required": ["$type"]
+        }
+    }
+}

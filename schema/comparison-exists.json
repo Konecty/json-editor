@@ -1,0 +1,13 @@
+{
+    "title": "exists",
+    "id": "comparison-exists",
+    "type": "object",
+    "properties": {
+        "$exists": {
+            "title": "Value",
+            "description": "Matches documents on the existance of the specified field.",
+            "type": "boolean",
+            "required": ["$exists"]
+        }
+    }
+}
